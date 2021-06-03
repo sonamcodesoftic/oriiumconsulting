@@ -71,18 +71,37 @@
 			{
                margin-bottom: 10%;
 			}
+			.link img
+				{
+				  width: 50%;
+				  height: auto;
+				}
+				.mobile-arrow
+				{
+					margin-top:-10px;
+				}
 			}
 			@media only screen and (max-width: 767px)
 			{
-				.mobile-arrow
+				/* .mobile-arrow
 				{
 					position: relative;
+				} */
+				.link img
+				{
+				  width: 50%;
+				  height: auto;
+				}
+				.mobile-arrow
+				{
+					margin-top:-10px;
 				}
 			}
 			.logo
 			{
 				margin-top:9%;
 			}
+			
 			
 
 		</style>	
@@ -168,14 +187,14 @@
 							<!-- Logo -->
 							<div class="logo">
 								<!-- <a href="index.html"><img src="images/logo.png" alt="logo"></a> -->
-								<a href="index.html"><img src="images/logonew.jpg" alt="logo"></a>
+								<a href="index.html" class="mylogo"><img src="images/logonew.jpg" alt="logo"></a>
 							</div>
-							<!-- <div class="link"><a href="index.html"><span>R</span>adix</a></div> -->
+							 <div class="link"><img src="images/logonew.jpg" alt="logo"></div>
 							<!--/ End Logo -->
 							<button class="mobile-arrow"><i class="fa fa-bars"></i></button>
 							<div class="mobile-menu"></div>
 						</div>
-						<div class="col-lg-10 col-12" style="margin-left: 33%;">
+						<div class="col-lg-10 col-12 menu-bar-items" >
 							<!-- Main Menu -->
 							<div class="mainmenu">
 								<nav class="navigation" >
@@ -186,12 +205,12 @@
 										</li>	
 										<!-- <li><a href="services.html">Services</a></li>	 -->
 										<li><a href="about-us.html">About us</a></li>	
-										<li><a href="#">Blogs<i class="fa fa-caret-down"></i></a>
+										<!-- <li><a href="#">Blogs<i class="fa fa-caret-down"></i></a>
 											<ul class="dropdown">
 												<li><a href="blog-single.html">LATEST BLOG</a></li>
 												<li><a href="blog.html">ALL BLOGS</a></li>
 											</ul>
-										</li>
+										</li> -->
 										<li><a href="contact.html">Contact</a></li>
 									</ul>
 								</nav>
@@ -389,96 +408,107 @@
 		<!--/ End About Us -->
 		
 		<!-- Services -->
-		<section id="services" class="services section">
-			<div class="container" >
+		<section id="services" class="services archives section">
+			<div class="container">
 				<div class="row">
-					<div class="col-12 wow fadeInUp" >
+					<div class="col-12">
 						<div class="section-title">
 							<span class="title-bg">Services</span>
 							<h1>What we provide</h1>
-							<p>oriium consulting limited services provider, is an extension for storing digital data in an online space that spans multiple servers and locations.<p>
+							<p>Oriium consulting limited services provider, is an extension for storing digital data in an online space that spans multiple servers and locations.<p>
 						</div>
 					</div>
 				</div>
-				<div class="row" style="margin-top: 20px;">
-					<div class="col-12" >
-						<div class="service-slider"  >
-							<!-- Single Service -->
-							<div class="single-service"  >
-								<i class="fa fa-magic" ></i>
-								<h2><a href="service-single.html">DEPLOY RESOURCES INSTANTLY</a></h2>
-								<p >No-one enjoys waiting. That’s why in our cloud, new servers become available in less than 30 seconds. We execute resource requests in real-time so you can build dynamic cloud infrastructure that always performs. In fact, you are less than 60 seconds away from seeing for yourself.</p>
-							</div>
-							<!-- End Single Service -->	
-							<!-- Single Service -->
-							<div class="single-service" >
-								<i class="fa fa-lightbulb-o"></i>
-								<h2><a href="service-single.html">PERFECT CLOUD PROVISIONING</a></h2>
-								<p>Instead of jamming your computing into a few fixed server or VPS configurations, at CloudSigma you are in the driver’s seat. We provide free form server/VPS sizing with completely unbundled resources. Pick from ready servers like Linux, Windows and FreeBSD or build your own. Every customer deployment in our cloud is unique and tailored to your needs. </p>
-							</div>
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<div class="single-service">
-								<i class="fa fa-wordpress"></i>
-								<h2><a href="service-single.html">MIGRATE WITH EASE</a></h2>
-								<p>Our virtual data center approach means you won’t waste time wondering ‘how do I do that in the cloud’ or porting existing systems. We keep your data in your cloud servers secure. You can migrate your computing to CloudSigma easily and quickly. Import your own drive image into our cloud and it will work out of the box! In our cloud you can run any x86/x64 operating system unmodified and we wouldn’t have it any other way.</p>
-							</div>
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<!-- <div class="single-service">
-								<i class="fa fa-bullhorn "></i>
-								<h2><a href="service-single.html">Cloud for research and education</a></h2>
-								<p>Possible of erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
-							</div> -->
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<div class="single-service">
-								<i class="fa fa-magic"></i>
-								<h2><a href="service-single.html">FULL CLOUD API AUTOMATION</a></h2>
-								<p>We’ve put a lot of time and effort into ensuring our API is as usable and feature-rich as possible. In fact our own webapp is built on top of our API. That means that every feature in our cloud is available on a machine to machine interface and always will be. </p>
-							</div>
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<div class="single-service">
-								<i class="fa fa-lightbulb-o"></i>
-								<h2><a href="service-single.html">Cloud hosting and partner program</a></h2>
-								<p>Creative and erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
-							</div>
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<!-- <div class="single-service">
-								<i class="fa fa-wordpress"></i>
-								<h2><a href="service-single.html">Cloud API Automation</a></h2>
-								<p>just fine erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
-							</div> -->
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<!-- <div class="single-service">
-								<i class="fa fa-bullhorn "></i>
-								<h2><a href="service-single.html">Application</a></h2>
-								<p>Possible of erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
-							</div> -->
-							<!-- End Single Service -->
-							<!-- Single Service -->
-							<div class="single-service" >
-								<i class="fa fa-bullseye "></i>
-								<h2><a href="service-single.html">Security</a></h2>
-								<p >Replace risky email attachments with encrypted links. Tresorit empowers you to send and receive files safely from anyone – even non Tresorit users.. Everything ien erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat Latin</p>
-							</div>
-							<!-- End Single Service -->	
-							<!-- Single Service -->
-							<!-- <div class="single-service">
-								<i class="fa fa-cube"></i>
-								<h2><a href="service-single.html">Creative Plan</a></h2>
-								<p>Information sapien erat,  non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
-							</div> -->
-							<!-- End Single Service -->
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-magic"></i>
+							<h2><a href="service-single.html">DEPLOY RESOURCES INSTANTLY</a></h2>
+							<p>No-one enjoys waiting. That’s why in our cloud, new servers become available in less than 30 seconds. </p>
 						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-lightbulb-o"></i>
+							<h2><a href="service-single.html">PERFECT CLOUD PROVISIONING</a></h2>
+							<p>Instead of jamming your computing into a few fixed server or VPS configurations, at CloudSigma you are in the driver’s seat.	</p>
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-wordpress"></i>
+							<h2><a href="service-single.html">MIGRATE WITH EASE</a></h2>
+							<p>Our virtual data center approach means you won’t waste time wondering ‘how do I do that in the cloud’ or porting existing systems. </p>
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-bullhorn "></i>
+							<h2><a href="service-single.html">FULL CLOUD API AUTOMATION</a></h2>
+							<p>We’ve put a lot of time and effort into ensuring our API is as usable and feature-rich as possible. </p>
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-magic"></i>
+							<h2><a href="service-single.html">Cloud Consulting</a></h2>
+							<p>welcome to our consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt a tristique tortor maximus</p>
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<div class="single-service">
+							<i class="fa fa-lightbulb-o"></i>
+							<h2><a href="service-single.html">Cloud Hosting And Program</a></h2>
+							<p>Creative and erat, porta non porttitor non, dignissim et enim Aenean ac enim feugiat classical Latin</p>
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<!-- <div class="single-service">
+							<i class="fa fa-wordpress"></i>
+							<h2><a href="service-single.html">Cloud Security</a></h2>
+							<p>Replace risky email attachments with encrypted links. Tresorit empowers you to send and receive files safely from anyone </p>
+						</div> -->
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Single Service -->
+						<!-- <div class="single-service">
+							<i class="fa fa-bullhorn "></i>
+							<h2><a href="service-single.html">DEPLOY RESOURCES INSTANTLY</a></h2>
+							<p>No-one enjoys waiting. That’s why in our cloud, new servers become available in less than 30 seconds.</p>
+						</div> -->
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">	
+						<!-- Single Service -->
+						<!-- <div class="single-service">
+							<i class="fa fa-bullseye "></i>
+							<h2><a href="service-single.html">PERFECT CLOUD PROVISIONING</a></h2>
+							<p>Instead of jamming your computing into a few fixed server or VPS configurations, at CloudSigma you are in the driver’s seat.</p>
+						</div> -->
+						<!-- End Single Service -->	
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--/ End Services -->
+
+
+
+
 
 		<!-- Call To Action -->
 		<section class="call-to-action section mt-5" data-stellar-background-ratio="0.5" >
@@ -821,72 +851,53 @@
 			</div>
 			<!--/ End Top Arrow -->
 			<!-- Footer Top -->
-			<!-- <div class="footer-top">
+			<div class="footer-top">
 				<div class="container">
-					<div class="row"> -->
-						<!-- <div class="col-lg-3 col-md-6 col-12"> -->
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-12">
 							<!-- About Widget -->
-							<!-- <div class="single-widget about">
+							<div class="single-widget about">
 								<h2>Office Location</h2>
-								<p>Maecenas sapien erat, porta non porttitor non, dignissim et enim.</p>
+								
 								<ul class="list">
-									<li><i class="fa fa-map-marker"></i>Address: House 20, Sector-7, Road-5, California, US</li>
-									<li><i class="fa fa-headphones"></i>Phone: +(123) 45678 910</li>
-									<li><i class="fa fa-headphones"></i>Email:<a href="mailto:info@youremail.com">Info@yourwebsite.com</a></li>
+									<li><i class="fa fa-map-marker"></i>Address: Room 409, Beverley Commercial Center, 87-105 Chatham Road South, Tsim Sha Tsui, Kowloon Hong Kong.</li>
+									<li><i class="fa fa-headphones"></i>Phone: +91 8968411142</li>
+									<li><i class="fa fa-headphones"></i>Email:<a href="mailto:info@youremail.com">info@oriiumconsultinglimited.com</a></li>
 								</ul>	
-							</div> -->
+							</div>
 							<!--/ End About Widget -->
-						<!-- </div>	 -->
-						<!-- <div class="col-lg-3 col-md-6 col-12"> -->
+						</div>	
+						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Links Widget -->
-							<!-- <div class="single-widget links">
+							<div class="single-widget links">
 								<h2>Quick Links</h2>
 								<ul class="list">
-									<li><a href="about-us.html"><i class="fa fa-caret-right"></i>About Our Company</a></li>
-									<li><a href="services.html"><i class="fa fa-caret-right"></i>Our Latest services</a></li>
-									<li><a href="projects-masonry.html"><i class="fa fa-caret-right"></i>Our Recent Project</a></li>
-									<li><a href="blogs-right-sidebar.html"><i class="fa fa-caret-right"></i>Latest Blog</a></li>
-									<li><a href="contact.html"><i class="fa fa-caret-right"></i>Help Desk</a></li>
+									<li><a href="index.html"><i class="fa fa-caret-right"></i>Home</a></li>
+									<li><a href="services.html"><i class="fa fa-caret-right"></i>Services</a></li>
+									<li><a href="about-us.html"><i class="fa fa-caret-right"></i>About Us</a></li>
 									<li><a href="contact.html"><i class="fa fa-caret-right"></i>Contact With Us</a></li>
 								</ul>
-							</div> -->
+							</div>
 							<!--/ End Links Widget -->
-						<!-- </div> -->
-						<!-- <div class="col-lg-3 col-md-6 col-12"> -->
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Twitter Widget -->
-							<!-- <div class="single-widget twitter">
-								<h2>Recent Tweets</h2>
-								<div class="single-tweet">
-									<i class="fa fa-twitter"></i>
-									<p><a href="#">@Radix</a>Mauris sagittis nibh et nibh commodo vehicula. Praesent blandit nulla nec tristique egestas. Integer in volutpat turpis</p>
-								</div>
-								<div class="single-tweet">
-									<i class="fa fa-twitter"></i>
-									<p><a href="#">@Radix</a>Maecenas vulputate, dui eget varius sagittis, justo nunc efficitur sem, id vestibulum</p>
-								</div>
-								<div class="single-tweet">
-									<i class="fa fa-twitter"></i>
-									<p><a href="#">@Radix</a>Praesent facilisis tortor nec diam suscipit condimentum</p>
-								</div>
-							</div> -->
+							<div class="single-widget " >
+								<h2>Overview</h2>
+								
+									<p style="color: #aebbaa;">We are your strategic partner in accelerating your roadmap through our full-stack cloud storage software development services. </p>
+						
+							    <br>
+									<p style="color: #aebbaa;">Maecenas vulputate, dui eget varius sagittis, justo nunc efficitur sem, id vestibulum</p>
+								
+								
+							</div>
 							<!--/ End Twitter Widget -->
-						<!-- </div> -->
-						<!-- <div class="col-lg-3 col-md-6 col-12"> -->
-							<!-- Newsletter Widget -->
-							<!-- <div class="single-widget newsletter">
-								<h2>Newsletter</h2>
-								<p>consectetur adipiscing elit. Vestibulum vel sapien et lacus tempus varius. In finibus lorem vel.</p>
-								<form>
-									<input placeholder="Your Name" type="text">
-									<input placeholder="your email" type="email">
-									<button type="submit" class="button primary">Subscribe Now!</button>
-								</form>	
-							</div> -->
-							<!--/ End Newsletter Widget -->
-						<!-- </div> -->
-					<!-- </div>
+						</div>
+						
+					</div>
 				</div>
-			</div> -->
+			</div>
 			<!--/ End Footer Top -->
 			<!-- Footer Bottom -->
 			<div class="footer-bottom">
